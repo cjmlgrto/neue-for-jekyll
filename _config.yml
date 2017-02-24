@@ -1,0 +1,22 @@
+# --------------------------------
+# CONFIG: Site settings
+# --------------------------------
+
+title: "Website Name"
+author: "First Name Last Name"
+description: "Website Description"
+
+markdown: kramdown
+permalink: pretty
+
+sass:
+  style: compressed
+
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    title: Untitled
+    subtitle: Subtitle
+    layout: default
